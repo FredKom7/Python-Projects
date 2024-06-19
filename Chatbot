@@ -1,0 +1,26 @@
+def simple_chatbot(user_input):
+    user_input = user_input.lower()
+
+    # Define some basic rules and responses
+    chat_rules = {
+        'hello': 'Hi there!',
+        'how are you': 'I am a bot. I do not have feelings, but thanks for asking!',
+        'bye': 'Goodbye! Have a great day.',
+        'what is your name': 'My name is Chatbot. I am a simple bot created for a basic project.',
+        'hi': 'Hello!! How may i be of assistance today?',
+        'who made you': 'I was created by Freddy Kom.'
+        # Add more rules as needed
+    }
+
+    # Check if the user input matches any rule
+    for rule, response in chat_rules.items():
+        if rule in user_input:
+            return response
+
+    # If no rule matches, provide a default response
+    return "I'm sorry, I didn't understand that."
+
+# Example usage
+user_input = input("You: ")
+bot_response = simple_chatbot(user_input)
+print("Bot:",bot_response)
