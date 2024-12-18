@@ -1,6 +1,6 @@
 # Python-Projects
 Mini Projects in Python
-Some codes are not developed completely..
-I'll try to develop it and update it...
+Some codes are not finished completely..
+I'll ty updating it...
 Till then try the others---
 EnJoy---------------------------------------------------
